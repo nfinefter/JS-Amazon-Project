@@ -2,6 +2,8 @@ import { formatCurrency} from "../scripts/utils/money.js";
 
 console.log('Test Suite: formatCurrency');
 
+console.log('Convert cents into dollars');
+
 if (formatCurrency(2095) === '20.95') {
   console.log("All tests passed!");
 } else {
