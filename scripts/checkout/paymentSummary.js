@@ -54,4 +54,11 @@ export function renderPaymentSummary() {
           </button>
     `;
     document.querySelector(".js-payment-summary").innerHTML = paymentSummaryHTML;
+    
+   document.addEventListener('DOMContentLoaded', () =>{
+    document.querySelector('.js-header-middle-section').textContent = 
+    `
+    ${cart.length} items
+    `
+   });
 }
